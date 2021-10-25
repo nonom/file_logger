@@ -7,7 +7,7 @@ namespace Drupal\file_logger;
  *
  * Usage:
  * $our_service = \Drupal::service('file_logger.service');
- * $our_service->log("ERROR", $message);
+ * $our_service->log("ERROR", $module, $message);
  */
 class FileLoggerService {
 
