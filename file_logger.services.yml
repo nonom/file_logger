@@ -1,0 +1,3 @@
+services:
+    file_logger.service:
+        class: Drupal\file_logger\FileLoggerService
