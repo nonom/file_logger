@@ -1,3 +1,4 @@
 services:
-    file_logger.service:
-        class: Drupal\file_logger\FileLoggerService
+  file_logger.service:
+    class: Drupal\file_logger\FileLoggerService
+    arguments: [ '@state' ]

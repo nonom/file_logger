@@ -1,0 +1,15 @@
+file_logger.file_logger:
+  path: '/admin/config/file_logger'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'File Logger'
+  requirements:
+    _permission: 'administer site configuration'
+
+file_logger.file_logger_config:
+  path: '/admin/config/file_logger/config'
+  defaults:
+    _form: '\Drupal\file_logger\Form\FileLoggerConfigurationForm'
+    _title: 'File Logger'
+  requirements:
+    _permission: 'administer site configuration'

@@ -1,0 +1,11 @@
+file_logger.file_logger:
+  title: 'File Logger'
+  parent: system.admin_config_services
+  description: 'File Logger'
+  route_name: file_logger.file_logger
+
+file_logger.file_logger_config:
+  title: 'Configuration'
+  parent: file_logger.file_logger
+  description: 'Configure the file_logger'
+  route_name: file_logger.file_logger_config
