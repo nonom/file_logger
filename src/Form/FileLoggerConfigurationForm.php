@@ -2,11 +2,9 @@
 
 namespace Drupal\file_logger\Form;
 
-use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Messenger\MessengerInterface;
-use Drupal\Core\Queue\QueueFactory;
 use Drupal\Core\State\State;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 

@@ -1,4 +1,4 @@
 services:
   file_logger.service:
     class: Drupal\file_logger\FileLoggerService
-    arguments: [ '@state' ]
+    arguments: [ '@state', '@stream_wrapper_manager' ]
